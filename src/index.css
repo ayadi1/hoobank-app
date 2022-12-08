@@ -33,6 +33,7 @@ body {
   background-color: #11101d;
   overflow-x: hidden;
   color: #ffffff;
+  font-family: var(--font-base);
 }
 .text-gradient {
   background: radial-gradient(
