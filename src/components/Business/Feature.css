@@ -1,0 +1,40 @@
+.app__Feature {
+  display: flex;
+  gap: 15px;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.app__Feature-icon {
+  width: 64px;
+  min-width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(9, 151, 124, 0.1);
+  border-radius: 50%;
+}
+.app__Feature-icon img {
+  width: 32px;
+  height: 32px;
+}
+
+.app__Feature-content h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+}
+.app__Feature-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-gray);
+}
+@media screen and (max-width: 375px) {
+  .app__Feature {
+    flex-direction: column;
+  }
+}

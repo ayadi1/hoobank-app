@@ -1,0 +1,62 @@
+.app__Business {
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.app__Business-content {
+  max-width: 550px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.app__Business-content h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+}
+.app__Business-content p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 170%;
+  letter-spacing: 0.01em;
+  color: var(--color-gray);
+}
+.app__Business-content button {
+  color: var(--color-black);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: capitalize;
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  width: 170px;
+  height: 64px;
+}
+.app__Business-cords {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 650px;
+  /* min-width: 650px; */
+}
+@media screen and (max-width: 500px) {
+  .app__Business {
+    padding: 1rem;
+    gap: 20px;
+  }
+.app__Business-content h2 {
+    font-size: 35px;
+}
+}
