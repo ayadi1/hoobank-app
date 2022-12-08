@@ -7,7 +7,7 @@ export default function Stats() {
     <div className="app__Stats">
       {stats.map((s) => (
         <>
-          <Stat title={s.title} value={s.value} key={s.id} />
+          <Stat title={s.title} value={s.value} key={s.title} />
           <div className="line"></div>
         </>
       ))}
