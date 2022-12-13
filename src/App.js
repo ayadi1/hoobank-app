@@ -7,7 +7,6 @@ import {
   Business,
   CTA,
   CardDeal,
-  Clients,
   Footer,
   Stats,
   Testimonials

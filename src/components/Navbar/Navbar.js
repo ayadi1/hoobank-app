@@ -3,11 +3,8 @@ import { logo } from "../../assets";
 import { HiOutlineMenuAlt1, HiX } from "react-icons/hi";
 import { useState } from "react";
 import { navLinks } from "../../constants";
-const Links = navLinks.map((link) => (
-  <a href={"#" + link.title} key={link.id}>
-    {link.title}
-  </a>
-));
+import A from "./A";
+const Links = navLinks.map((link) => <A key={link.id} link={link} />);
 export default function Navbar() {
   const [isShowing, setIsShowing] = useState(false);
   return (

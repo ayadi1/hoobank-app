@@ -35,6 +35,10 @@ body {
   color: #ffffff;
   font-family: var(--font-base);
 }
+ul,
+ol {
+  list-style: none;
+}
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
