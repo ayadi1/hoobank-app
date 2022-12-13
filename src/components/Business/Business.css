@@ -43,6 +43,7 @@
   outline: none;
   width: 170px;
   height: 64px;
+  cursor: pointer;
 }
 .app__Business-cords {
   display: flex;
@@ -56,7 +57,7 @@
     padding: 1rem;
     gap: 20px;
   }
-.app__Business-content h2 {
+  .app__Business-content h2 {
     font-size: 35px;
-}
+  }
 }
