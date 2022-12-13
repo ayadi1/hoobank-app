@@ -11,7 +11,6 @@
   max-width: 500px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
   gap: 50px;
 }
 .app__Header-container-content-discount {
@@ -68,18 +67,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-sizing: content-box;
   padding: 1rem;
   flex-direction: column;
   color: var(--color-white);
-}
-.app__Header-container-content__title-head__get div {
-}
-.app__Header-container-content__title-head__get div img {
-}
-.app__Header-container-content__title-foot {
-}
-.app__Header-container-content p {
 }
 .app__Header-container-image {
   min-width: 400px;

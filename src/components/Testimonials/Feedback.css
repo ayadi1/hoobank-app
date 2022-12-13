@@ -1,0 +1,39 @@
+.app__Feedback {
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.app__Feedback p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  letter-spacing: 0.02em;
+}
+img.app__Feedback-quotes-img {
+  width: 42.6px;
+  height: 27.6px;
+  max-width: 42.6px;
+}
+.app__Feedback-title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    align-self: baseline;
+}
+.app__Feedback-title img {
+  width: 48px;
+  height: 48px;
+}
+.app__Feedback-title_name h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+.app__Feedback-title_name h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.5;
+}
