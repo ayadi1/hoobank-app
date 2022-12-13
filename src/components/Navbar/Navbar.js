@@ -9,7 +9,6 @@ const Links = navLinks.map((link) => (
   </a>
 ));
 export default function Navbar() {
-  console.log(Links);
   const [isShowing, setIsShowing] = useState(false);
   return (
     <div className="app__Navbar">

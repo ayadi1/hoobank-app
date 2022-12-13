@@ -1,0 +1,31 @@
+.app__Hero {
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.app__Hero img {
+  width: 192.25px;
+}
+@media screen and (max-width: 1000px) {
+  .app__Hero {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 800px) {
+  .app__Hero {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .app__Hero {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+  }
+  .app__Hero img {
+    justify-self: center;
+  }
+}
